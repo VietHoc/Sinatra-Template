@@ -1,0 +1,481 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title look-shop-women
+    %link{:href => "css/slider.css", :rel => "stylesheet"}/
+    %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}/
+    %link{:href => "css/styles.css", :rel => "stylesheet"}/
+    %link{:href => "css/womenstyles.css", :rel => "stylesheet"}/
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"}
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/icon?family=Material+Icons", :rel => "stylesheet"}/
+  %body
+    / ------------------------------------------------Header--------------------------------------------
+    %header
+      %nav#header-nav.navbar.navbar-default
+        .container
+          #customcare CUSTOM CARE: 888-23-4567
+          #myaccount.hidden-xs{:style => "float:right"}
+            .float-right
+              %a{:href => "#"}
+                %p
+                  %span.glyphicon.glyphicon-search
+            .float-right
+              %a{:href => "#"}
+                %p
+                  %span.glyphicon.glyphicon-user
+                  MY ACCOUNT
+            .float-right
+              %a{:href => "#"}
+                %p
+                  $US
+                  %span.glyphicon.glyphicon-triangle-bottom
+      %nav#us.navbar.navbar-default.visible-xs
+        #us1.container
+          %div{:style => "float:left"}
+            %a{:href => "#"}
+              %p.margin-right
+                $US
+                %span.glyphicon.glyphicon-triangle-bottom
+          %div{:style => "float:left"}
+            %a{:href => "#"}
+              %p.margin-right
+                %span.glyphicon.glyphicon-user
+                MY ACCOUNT
+          %div{:style => "float:left"}
+            %a{:href => "#"}
+              %p
+                %span.glyphicon.glyphicon-search
+      %nav#header-navheader.navbar.navbar-default
+        .container
+          .navbar-header
+            .navbar-brand
+              %a{:href => "shop.html"}
+                %img#brand.stylelogo{:src => "images/logo-shop.png"}/
+            %div
+              %table#table.table.table-bordered
+                %tbody.hidden-xs
+                  %td
+                    Your cart
+                    %span#stylecart.glyphicon.glyphicon-triangle-bottom
+                %tbody
+                  %td#item
+                    %img#brand{:src => "images/cart.png"}/
+                    %span#stylecart 0 ITEMS|$0
+            #menu
+              #menutext.visible-xs MENU
+              %button#iconmenu.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+                %span.sr-only MENU
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+      #navbar.nav.navbar-nav.navbar-right.navbar-collapse.collapse
+        %ul#nav-list.nav.navbar-nav.navbar-right.choese
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              new
+              %span.caret
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              designers
+              %span.caret
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              women
+              %span.caret
+            %ul.dropdown-menu
+              %li
+                %a{:href => "women.html"} Accessories
+              %li
+                %a{:href => "women.html"} Ethnic Apparel
+              %li
+                %a{:href => "women.html"} Footwear
+              %li
+                %a{:href => "women.html"} Grooming
+              %li
+                %a{:href => "women.html"} Handbags
+              %li
+                %a{:href => "women.html"} Jewellery
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              men
+              %span.caret
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              clearence
+              %span.caret
+    %content
+      .container
+        %hr#hr1/
+        %div
+          %i> Women
+          \&gt;
+          %a Clothing
+        %hr#hr2/
+    %section.container
+      .slideshow-container
+        .mySlides.fadeSlider
+          %img.col-md-7{:src => "images/product.png"}/
+          .banner_right.col-md-5
+            %h1 Open Heart Top
+            %h1.p1 $13.95
+            %p.p2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolmagna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+            .wm-button1
+              %scan.add ADD TO CARD
+              %a#iconplus{:href => "../icon/plus"}
+                %i.fa.fa-plus{"aria-hidden" => "true"}
+                %em
+          .clearfix
+        .mySlides.fadeSlider
+          %img.col-md-7{:src => "images/product.png"}/
+          .banner_right.col-md-5
+            %h1 Tincidunt ut
+            %h1.p1 $10.95
+            %p.p2 sed diam nonummy nibh euismod tincidunt Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  dolore maliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+            .wm-button1
+              %scan.add ADD TO CARD
+              %a#iconplus{:href => "../icon/plus"}
+                %i.fa.fa-plus{"aria-hidden" => "true"}
+                %em
+          .clearfix
+        .mySlides.fadeSlider
+          %img.col-md-7{:src => "images/product.png"}/
+          .banner_right.col-md-5
+            %h1 Magna Aliquam
+            %h1.p1 $80.95
+            %p.p2 Dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            .wm-button1
+              %scan.add ADD TO CARD
+              %a#iconplus{:href => "../icon/plus"}
+                %i.fa.fa-plus{"aria-hidden" => "true"}
+                %em
+          .clearfix
+      %a.prev{:onclick => "plusSlides(-1)", :style => "top: 500px;"} ❮
+      %a.next{:onclick => "plusSlides(1)", :style => "top: 500px; right:80px;"} ❯
+      %br/
+      %div{:style => "text-align:center"}
+        %span.dot{:onclick => "currentSlide(1)"}
+        %span.dot{:onclick => "currentSlide(2)"}
+        %span.dot{:onclick => "currentSlide(3)"}
+    %content
+      .container
+        .col-md-9
+          %div
+            #sortbuy Sort buy
+            %select
+              %option{:value => "date"} DATE
+              %option{:value => "week"} WEEK
+          .floatright
+            #showing Showing 1-12 off 347 results
+            #pagination1
+              %ul.pagination
+                %li
+                  %a{:href => "#"} 1
+                %li
+                  %a.active{:href => "#"} 2
+                %li
+                  %a{:href => "#"} 3
+                %li
+                  %a{:href => "#"} &gt;
+          %hr/
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p1.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p2.jpg"}/
+                %img#sale1{:src => "images/sale.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p3.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p4.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p5.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p6.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p7.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p8.jpg"}/
+                %img#sale1{:src => "images/sale.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .col-md-4
+            .text-center
+              %a{:href => "clothing.html"}
+                %img{:src => "images/p9.jpg"}/
+              %h3.h3 Feel Tank
+              %p#big
+                %strong $59.95
+              #clothing.button1
+                %scan.add ADD TO CARD
+                %a#iconplus{:href => "../icon/plus"}
+                  %i.fa.fa-plus{"aria-hidden" => "true"}
+                  %em
+          .floatright1
+            #showing1 Showing 1-12 off 347 results
+            %div
+              %ul.pagination
+                %li
+                  %a{:href => "#"} 1
+                %li
+                  %a.active{:href => "#"} 2
+                %li
+                  %a{:href => "#"} 3
+                %li
+                  %a{:href => "#"} &gt;
+        .col-md-3
+          .cate CATEGORIES
+          - @category.each do |i|
+            %button#cagories.accordion
+              %span#float= i.upcase
+            .panel
+              %ul
+                %li new 1
+                %li new 2
+            %hr/
+          %div PRICE 0$-&gt;200$
+          %div SELECT YOUR SIZE
+          #select
+            .size XS
+            .size S
+            .size M
+            .size L
+            .size XL
+          %div
+            .cate ON SALE
+            %div
+              .hight
+                .col-md-5
+                  %img{:alt => "", :src => "images/s1.jpg"}/
+                .col-md-7
+                  %h4 PINTUS TANK
+                  %h4.p1 $45.45
+              %hr/
+              .hight
+                .col-md-5
+                  %img{:alt => "", :src => "images/s2.jpg"}/
+                .col-md-7
+                  %h4 PINTUS TANK
+                  %h4.p1 $45.45
+              %hr/
+              .hight
+                .col-md-5
+                  %img{:alt => "", :src => "images/s3.jpg"}/
+                .col-md-7
+                  %h4 PINTUS TANK
+                  %h4.p1 $45.45
+          #fea.cate FEATURED PRODUCTS
+          %div
+            .hight
+              .col-md-5
+                %img{:alt => "", :src => "images/s4.jpg"}/
+              .col-md-7
+                %h4 PINTUS TANK
+                %h4.p1 $45.45
+            %hr/
+            .hight
+              .col-md-5
+                %img{:alt => "", :src => "images/s5.jpg"}/
+              .col-md-7
+                %h4 PINTUS TANK
+                %h4.p1 $45.45
+            %hr/
+            .hight
+              .col-md-5
+                %img{:alt => "", :src => "images/s6.jpg"}/
+              .col-md-7
+                %h4 PINTUS TANK
+                %h4.p1 $45.45
+    #center.container
+      we accept
+      %img{:src => "images/accept.png"}/
+    %footer.panel-footer
+      .container
+        .row
+          .hidden-xs
+            .col-md-8.col-sm-8
+              %section#hours.col-md-3.col-sm-6
+                %br/
+                %b#zoom Custom Service
+                %br/
+                contact
+                %br/
+                FAQ
+                %br/
+                Terms of payment
+                %br/
+                Terms of sale
+                %br/
+                Delivery tems and condition
+                %br/
+                Seturn and Refunds
+              %section#address.col-md-3.col-sm-6
+                %br/
+                %b#zoom Information
+                %br/
+                %br/
+                Affiliate
+                %br/
+                Cookies
+                %br/
+                How to Shop
+                %br/
+                About Nelly
+                %br/
+                Investor ralations
+                %br/
+              %section#testimonials.col-md-3.col-sm-6
+                %br/
+                %b#zoom campaigns
+                %br/
+                %br/
+                Evening dresses
+                %br/
+                Mekeup
+                %br/
+                Fashion forward
+                %br/
+                training clothers
+                %br/
+                Special Occasion Dresses
+                %br/
+              %section#testimonials.col-md-3.col-sm-6
+                %br/
+                %b#zoom Stores
+                %br/
+                %br/
+                Paris
+                %br/
+                New York
+                %br/
+                London
+                %br/
+                Madrid
+                %br/
+                Tokio
+                %br/
+            .col-md-4.col-sm-4
+              %section#testimonials.col-md-6.col-sm-8
+                %br/
+                %b#zoom Sosial
+                %br/
+                %br/
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %br/
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %hr.visible-xs/
+              %section#testimonials.col-md-6.col-sm-4{:style => "float:right"}
+                %br/
+                %br/
+                %img{:src => "images/secured.png"}/
+                %hr.visible-xs/
+    %footer#end
+      %button#iconmenu.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar-footer", "data-toggle" => "collapse", :type => "button"}
+        %span.btn.glyphicon.glyphicon-menu-hamburger.visible-xs
+      #navbar-footer.nav.navbar-nav.navbar-left.navbar-collapse.collapse
+        %ul#nav-list.nav.navbar-nav.navbar-left
+          %li
+            %a{:href => "login.html"} Privacy &amp; Cookies
+          %li
+            %a{:href => "checkout.html"} Terms &amp; Conditions
+          %li
+            %a{:href => "checkout.html"} Accessibility
+          %li
+            %a{:href => "login.html"} Store Directory
+          %li
+            %a{:href => "register.html"} About Us
+      #right.com
+        %b
+          © LookShop.com
+          %br/
+          All Rights Reserved
+    / jQuery (Bootstrap JS plugins depend on it)
+    %script{:src => "js/jquery-2.1.4.min.js"}
+    %script{:src => "js/bootstrap.min.js"}
+    %script{:src => "js/ajax-utils.js"}
+    %script{:src => "js/script.js"}

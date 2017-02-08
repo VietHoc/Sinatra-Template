@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#header-nav {
+  background-color:  #000000;
+  border-radius: 0;
+  border: 0;
+  height: 0px;
+}
+#header-navheader{
+	background-color:  #ffffff;
+  border-radius: 0;
+  border: 0;
+  height: 0px;
+}
+.btn{
+	border:0;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 20px;
+}
+#header-nav1 {
+  background-color:  #ededed;
+  border-radius: 0;
+  border: 0;
+  height: 60px;
+  margin-top: 8px;
+}
+#arial{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}

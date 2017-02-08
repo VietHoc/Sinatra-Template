@@ -1,0 +1,194 @@
+#margintop{
+	margin-top: 30px;
+}
+#images6{
+	widows: 350px;
+}
+#select-size{
+	width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    color: black;
+    background-color: #f4f4f4;
+}
+.dropdown_top{
+	border-bottom: 1px solid rgb(208, 208, 208);
+	border-top: 1px solid rgb(208, 208, 208);
+	padding: 1em 0;
+	margin: 2em 0;
+}
+.dropdown_left{
+	float:left;
+	width:35%;
+}
+span.color1 {
+	background:#efebe2;
+	padding: 5px 14px;
+}
+span.color2 {
+	background:#c9c1c6;
+	padding: 5px 14px;
+}
+span.color3 {
+	background:#b29b88;
+	padding: 5px 14px;
+}
+span.color4 {
+	background:#968886;
+	padding: 5px 14px;
+}
+span.color5 {
+	background:#cde0ef;
+	padding: 5px 14px;
+}
+ul.color_list {
+	padding:0;
+	list-style:none;
+	float:right;
+	margin-top: 7px;
+}
+ul.color_list li {
+
+display:inline-block;
+}
+#dropdown{
+	width: 252px;
+    height: 42px;
+}
+.metro1 .selected {
+    color:#000;
+}
+.metro1 .selected,
+.metro1 li{
+	display: block;
+	font-size:0.8125em;
+	padding:10px 0px 10px 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: left;
+	font-weight:500;
+	text-transform:uppercase;
+}
+.metro1 .selected::after{
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 18px;
+	background: url(../images/img-sprite.png) no-repeat -184px -40px #e5e5e5;
+}
+.metro1:hover .selected::after,
+.metro1.focus .selected::after{
+	background:url(../images/img-sprite.png) no-repeat -184px -40px #fd926d;
+}
+<----->
+.menu {
+	width: auto;
+	height: auto;
+	padding: 0;
+	list-style: none;
+}
+ul.menu li.item1{
+	background:#ffd5c6;
+}
+ul.menu li.item1 img, ul.menu li.item2 img, ul.menu li.item3 img, ul.menu li.item4 img, ul.menu li.item5 img{
+	margin: -3px 10px 0 0;
+}
+ul.menu li.item2{
+	background:#ffcab8;
+}
+ul.menu li.item3{
+	background:#ffae92;
+}
+ul.menu li.item4{
+	background:#ffa687;
+}
+ul.menu li.item5{
+	background:#fd926d;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+.menu > li > a {
+	width: 100%;
+	height: 4em;
+	line-height: 4em;
+	text-indent: 1.2em;
+	display: block;
+	position: relative;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.menu ul li a {
+	background: #fff;
+	width: 100%;
+	height: 5em;
+	line-height: 1.8em;
+	display: block;
+	position: relative;
+	font-size:0.85em;
+	font-weight: 400;
+	color: #878d95;
+}
+.menu > li > a:hover, .menu > li > a.active {
+	background:#fd926d;
+}
+.menu ul li a {
+	font-size: 0.8125em;
+}
+ul.menu li.item1{
+	background:#ffd5c6;
+}
+ul.menu li.item1 img, ul.menu li.item2 img, ul.menu li.item3 img, ul.menu li.item4 img, ul.menu li.item5 img{
+	margin: -3px 10px 0 0;
+}
+ul.menu li.item2{
+	background:#ffcab8;
+}
+ul.menu li.item3{
+	background:#ffae92;
+}
+ul.menu li.item4{
+	background:#ffa687;
+}
+ul.menu li.item5{
+	background:#fd926d;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+<----->
+
+#one{
+	float: left;
+    width: 40px;
+    height: 40px;
+    background:#feb298;
+    color: white;
+}
+#plus2{
+	float: left;
+    width: 40px;
+    height: 40px;
+    background: #fd926d;
+    color: white;
+}
+.plus3{
+	margin-top: 10px;
+    margin-left: 15px;
+}
+#buttonclothing{
+	    margin-left: 140px;
+}
+#feeltank{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+///
+///

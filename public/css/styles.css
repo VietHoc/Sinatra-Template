@@ -1,0 +1,490 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#header-nav {
+  background-color:  #000000;
+  border-radius: 0;
+  border: 0;
+  height: 0px;
+}
+#header-navheader{
+  background-color:  #ffffff;
+  border-radius: 0;
+  border: 0;
+  height: 0px;
+}
+.btn{
+  border:0;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 20px;
+}
+#header-nav1 {
+  background-color:  #ededed;
+  border-radius: 0;
+  border: 0;
+  height: 60px;
+  top: 30px;
+  margin-top: 80px;
+}
+#top{
+  margin-top: 30px;
+}
+.stylelogo {
+    width: 130%;
+}
+#stylecart{
+    float:right;
+  }
+
+#myaccount{
+  margin-top: 10px;
+}
+
+.stylewidth{
+  width:100%;
+}
+#styletext{
+    margin-top: 6px;
+}
+#styleiconadd{
+  font-size:45px;
+  color:#fd926d;
+  margin-top: 3px;
+}
+#styleiconfb{
+  font-size:24px;
+  margin-top: 5px;
+  padding-left:40px;
+}
+.sol6{
+    width: 106%;
+}
+.sol3{
+    width: 112.8%;
+}
+#text1{
+  border-left-width: 2px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 8px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fd926d;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li>a {
+    margin-right: 0;
+    border: 0;
+}
+.nav>li>a {
+    padding: 10px 35px;
+}
+.nav-tabs{
+    padding-top: 10px;
+    margin-top: 40px;
+}
+#home{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.float-right{
+  float:right;
+  padding-right: 30px;
+}
+.margin-right{
+  margin-right: 50px;
+}
+.button{
+    width: 54px;
+    height: 42px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+#choese{
+  background-color:  #fd926d;
+}
+.add{
+    float: left;
+    color: white;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.button1{
+    background-color: #fd926d;
+    width: 140px;
+    border: 5px solid #dd6b44;
+    padding: 8px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 15%;
+    
+}
+#iconplus{
+  color:white;
+  padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#iconadd{
+  float:right;
+  font-size:40px;
+  color: #fff;
+}
+
+#zoom{
+  width: 105%;
+}
+#big{
+  font-size: 30px;
+}
+#hrhr{
+  margin-top:100px;
+}
+#hr {
+    position: relative;
+    top: -100px;
+    margin-left: 50%;
+    left: -80px;
+}
+#clearence{
+  float:center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left:2.2%;
+}
+
+#textcenterhr{
+  float:left;
+  width: 20%;
+  padding-left:2%;
+  margin-top: 2%;
+}
+#hrr{
+  width: 40%;
+  text-align:left;
+  float:left;
+  margin-top: 3.3%;
+}
+
+#center{
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#end{
+    background-color: #000000;
+    padding: 30px 110px;
+    font-size: 11px;
+}
+#styleicon{
+  font-size:40px;
+}
+#sizeicon{
+  font-size:40px;
+}
+
+#textcenter{
+  text-align: center;
+}
+#left{
+    float:left;
+    margin-top: 30px;
+}
+#right{
+    text-align: right;
+}
+#zoom{
+    font-size: 20px;
+}
+.khung{
+  background-color: #f7f7f7;
+}
+#mobilebg{
+    background-color: #fd926d;
+    height: 460px;
+}
+.container{
+  height: auto;
+}
+
+@media screen and (max-width: 768px){  
+  #header-nav {
+    background-color: #fafafa;
+    border-radius: 0;
+    border: 0;
+    height: 0px;
+  }
+  #styletext{
+    float: left;
+    padding-left: 100px;
+    font-size: 20px;
+    }
+  #styletext2 {
+    float: left;
+    padding-left: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+    }
+  #styletext1{
+    float:left;
+    padding-left: 50px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 8px;
+    }
+  #faplus{
+    font-size: x-large;
+    position: absolute;
+    background: #fd926d;  
+    right: 0px;
+    width: 50px;
+    height: 48px;
+    top: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  #plusright{
+    float:right;
+  }
+  #left{
+    float: left;
+  }
+  #findushere{
+    margin-bottom: 30px;
+    top: 60px;
+    height: 50px;
+  }
+  #styleiconfb{
+  font-size:24px;
+  margin-top: 5px;
+  padding-left:40px;
+  position: relative;
+  bottom: 20px;
+}
+  .stylelogo{
+    position: absolute;
+    top: -10px;
+    margin-left: 50%;
+    left: -80px;
+    width: 200px;
+  }
+
+  #menu{
+    background: #fd926d;
+    height: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #menutext{
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+  #iconmenu{
+    position: relative;
+    top: -30px;
+  }
+  #item{
+        background: #fafafa;
+  }
+  #stay{
+    position: relative;
+    top: 50px;
+  }
+  #customcare{
+    float: left;
+    position: absolute;
+    top: 15px;
+    margin-left: 50%;
+    left: -80px;
+  }
+  #us{
+    background-color: #000000;
+    margin-left: 15px;
+    border-right-width: 15px;
+  }
+  #us1{
+    position: absolute;
+    top: 15px;
+    margin-left: 40%;
+    left: -80px; 
+  }
+  #right{
+    margin-right: 50px;
+  }
+  .loadmore{
+    background: black;
+    color: white;
+    width: 120px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 15px;
+    margin-left: 38%;
+    left: -80px;
+  }
+  footer#end button {
+    float: left;
+    color: #ffffff;
+  } 
+  #email{
+      height: 32px;
+      top: 120px;
+  }
+}
+@media screen and (min-width: 768px){  
+  #customcare{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 0px;
+  }
+  .choese{
+      position: absolute;
+      left: 450px;
+      top: 80px;
+      width: 550px;
+      left: 90px;
+      top: 120px;
+  }
+  #table{
+      float: right;
+      position: absolute;
+      width: 20%;
+      right: 65px;
+    }
+  #email{
+    width: 202px;
+    left: 130px;
+  }
+  #sale{
+
+    position: absolute;
+    top: 0px;
+  }
+  #styletext{
+    position: relative;
+    top: 40px;
+    font-size: initial;
+  }
+  #styletext1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+  }
+  #faplus{
+    float: right;
+    font-size: x-large;
+    position: absolute;
+    background: #fd926d;  
+    right: 0px;
+    width: 50px;
+    height: 48px;
+    top: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  #findushere{
+    width: 232px;
+    height: 32px;
+    float: right;
+    bottom: 70px;
+  }
+  #styletext2{
+    font-size: initial;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  #styleiconfb{
+    position: relative;
+    left: 90px;
+    bottom: 55px;
+    padding-left: 20px;
+  }
+  #zoom {
+    width: 101%;
+}
+}
+@media screen and (min-width: 992px){  
+  #customcare{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .choese{
+      position: absolute;
+      left: 450px;
+      top: 80px;
+  }
+  #table{
+      float: right;
+      position: absolute;
+      width: 20%;
+      right: 65px;
+    }
+  #email{
+    width: 300px;
+    left: 130px;
+  }
+  #styletext{
+    position: relative;
+    top: 40px;
+    font-size: initial;
+  }
+  #styletext1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+  }
+  #faplus{
+    float: right;
+    font-size: x-large;
+    position: absolute;
+    background: #fd926d;  
+    right: 0px;
+    width: 50px;
+    height: 48px;
+    top: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  #findushere{
+    width: 300px;
+    height: 32px;
+    float: right;
+    bottom: 70px;
+  }
+  #styletext2{
+    font-size: initial;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  #styleiconfb{
+    position: relative;
+    left: 90px;
+    bottom: 55px;
+  }
+}

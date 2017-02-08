@@ -1,0 +1,466 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title look-shop-clothing
+    %link{:href => "css/slider.css", :rel => "stylesheet"}/
+    %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}/
+    %link{:href => "css/styles.css", :rel => "stylesheet"}/
+    %link{:href => "css/womenstyles.css", :rel => "stylesheet"}/
+    %link{:href => "css/clothingstyles.css", :rel => "stylesheet"}/
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"}
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/icon?family=Material+Icons", :rel => "stylesheet"}/
+    %link{:href => "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css", :rel => "stylesheet"}/
+  %body
+    / ------------------------------------------------Header--------------------------------------------
+    %header
+      %nav#header-nav.navbar.navbar-default
+        .container
+          #customcare CUSTOM CARE: 888-23-4567
+          #myaccount.hidden-xs{:style => "float:right"}
+            .float-right
+              %a{:href => "#"}
+                %p
+                  %span.glyphicon.glyphicon-search
+            .float-right
+              %a{:href => "#"}
+                %p
+                  %span.glyphicon.glyphicon-user
+                  MY ACCOUNT
+            .float-right
+              %a{:href => "#"}
+                %p
+                  $US
+                  %span.glyphicon.glyphicon-triangle-bottom
+      %nav#us.navbar.navbar-default.visible-xs
+        #us1.container
+          %div{:style => "float:left"}
+            %a{:href => "#"}
+              %p.margin-right
+                $US
+                %span.glyphicon.glyphicon-triangle-bottom
+          %div{:style => "float:left"}
+            %a{:href => "#"}
+              %p.margin-right
+                %span.glyphicon.glyphicon-user
+                MY ACCOUNT
+          %div{:style => "float:left"}
+            %a{:href => "#"}
+              %p
+                %span.glyphicon.glyphicon-search
+      %nav#header-navheader.navbar.navbar-default
+        .container
+          .navbar-header
+            .navbar-brand
+              %a{:href => "shop.html"}
+                %img#brand.stylelogo{:src => "images/logo-shop.png"}/
+            %div
+              %table#table.table.table-bordered
+                %tbody.hidden-xs
+                  %td
+                    Your cart
+                    %span#stylecart.glyphicon.glyphicon-triangle-bottom
+                %tbody
+                  %td#item
+                    %img#brand{:src => "images/cart.png"}/
+                    %span#stylecart 0 ITEMS|$0
+            #menu
+              #menutext.visible-xs MENU
+              %button#iconmenu.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}
+                %span.sr-only MENU
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+      #navbar.nav.navbar-nav.navbar-right.navbar-collapse.collapse
+        %ul#nav-list.nav.navbar-nav.navbar-right.choese
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              new
+              %span.caret
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              designers
+              %span.caret
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              women
+              %span.caret
+            %ul.dropdown-menu
+              %li
+                %a{:href => "women.html"} Accessories
+              %li
+                %a{:href => "women.html"} Ethnic Apparel
+              %li
+                %a{:href => "women.html"} Footwear
+              %li
+                %a{:href => "women.html"} Grooming
+              %li
+                %a{:href => "women.html"} Handbags
+              %li
+                %a{:href => "women.html"} Jewellery
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              men
+              %span.caret
+          %li.dropdown
+            %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", :type => "button"}
+              clearence
+              %span.caret
+    %content
+      .container
+        %hr#hr1/
+        %div
+          %img{:src => "images/home.png"}/
+          %i &gt; Women
+          %i &gt; Clothing
+          %i &gt; Blouses &amp; Shirts
+          %i &gt; B.young
+          %a &gt; Sofi Blouse
+        %hr#hr2/
+    %content
+      #margintop.container
+        .col-md-5
+          .col-md-12{:style => "margin-bottom: 20px;"}
+            %img{:src => "images/6.jpg", :style => "width: 435px;"}/
+          .col-md-3
+            %img{:src => "images/6.1.jpg"}/
+          .col-md-3
+            %img{:src => "images/6.2.jpg"}/
+          .col-md-3
+            %img{:src => "images/6.3.jpg"}/
+          .col-md-3
+            %img{:src => "images/6.4.jpg"}/
+        .col-md-7
+          %div
+            %img{:src => "images/back.png"}/
+            %span
+              Back to
+              %a{:href => "women.html"} Women's Clothing
+            %hr/
+            %h1 Sofi Blouse
+            %div
+              %h1 $98.95
+              %span{:style => "float: right;position: relative;bottom: 40px;"}
+                12 reviews
+                %img{:alt => "", :src => "images/review.png"}/
+            %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum
+            .dropdown_top
+              .dropdown_left
+                %select#dropdown.dropdown{"data-settings" => "{\"wrapperClass\":\"metro1\"}", :tabindex => "10"}
+                  %option{:value => "0"} Select size
+                  %option{:value => "1"} XS
+                  %option{:value => "2"} S
+                  %option{:value => "3"} M
+                  %option{:value => "4"} L
+                  %option{:value => "5"} XL
+              %ul.color_list
+                %li
+                  %a{:href => "#"}
+                    %span.color1
+                %li
+                  %a{:href => "#"}
+                    %span.color2
+                %li
+                  %a{:href => "#"}
+                    %span.color3
+                %li
+                  %a{:href => "#"}
+                    %span.color4
+                %li
+                  %a{:href => "#"}
+                    %span.color5
+              .clearfix
+          %div
+            #plus2
+              .plus3 +
+            #one{:style => "float: left;width: 40px;height: 40px;background:#feb298;color: white;"}
+              .plus3 1
+            #plus2
+              .plus3 +
+            #buttonclothing.wm-button1
+              %scan.add ADD TO CARD
+              %a#iconplus{:href => "../icon/plus"}
+                %i.fa.fa-plus{"aria-hidden" => "true"}
+                %em
+    .container
+      %hr/
+      .col-md-3
+        .col-md-6
+          %img{:src => "images/ion1.png"}/
+        .col-md-6
+          %a{:href => "#"}
+            %div
+              Share
+              %br/
+              on facebook
+      .col-md-3
+        .col-md-6
+          %img{:src => "images/icon2.png"}/
+        .col-md-6
+          %a{:href => "#"}
+            %div
+              SPin
+              %br/
+              this product
+      .col-md-3
+        .col-md-6
+          %img{:src => "images/icon3.png"}/
+        .col-md-6
+          %a{:href => "#"}
+            %div
+              Tweet
+              %br/
+              this product
+      .col-md-3
+        .col-md-6
+          %img{:src => "images/icon4.png"}/
+        .col-md-6
+          %a{:href => "#"}
+            %div
+              Email
+              %br/
+              a Friend
+    .container
+      %hr/
+      %ul.menu
+        %li.item1
+          %a{:href => "#"}
+            %img{:src => "images/product_arrow.png"}>/
+            Description
+          %ul
+            %li.subitem1
+              %a{:href => "#"} Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+            %li.subitem2
+              %a{:href => "#"} Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+            %li.subitem3
+              %a{:href => "#"} Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+        %li.item2
+          %a{:href => "#"}
+            %img{:src => "images/product_arrow.png"}>/
+            Additional information
+          %ul
+            %li.subitem2
+              %a{:href => "#"} Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+            %li.subitem3
+              %a{:href => "#"} Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+        %li.item3
+          %a{:href => "#"}
+            %img{:src => "images/product_arrow.png"}>/
+            Reviews (10)
+          %ul
+            %li.subitem1
+              %a{:href => "#"} Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+            %li.subitem2
+              %a{:href => "#"} Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+            %li.subitem3
+              %a{:href => "#"} Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+        %li.item4
+          %a{:href => "#"}
+            %img{:src => "images/product_arrow.png"}>/
+            Helpful Links
+          %ul
+            %li.subitem2
+              %a{:href => "#"} Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+            %li.subitem3
+              %a{:href => "#"} Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+        %li.item5
+          %a{:href => "#"}
+            %img{:src => "images/product_arrow.png"}>/
+            Make A Gift
+          %ul
+            %li.subitem1
+              %a{:href => "#"} Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+            %li.subitem2
+              %a{:href => "#"} Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+            %li.subitem3
+              %a{:href => "#"} Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+    .container
+      %hr#hrr/
+      #textcenterhr
+        %h4 RELATED PRODUCTS
+      %hr#hrr/
+    #feeltank.container
+      .col-md-3
+        .text-center
+          %img{:src => "images/b1.jpg"}/
+          %h3.h3 Feel Tank
+          %p#big
+            %strong $59.95
+          #clothing.button1
+            %scan.add ADD TO CARD
+            %a#iconplus{:href => "../icon/plus"}
+              %i.fa.fa-plus{"aria-hidden" => "true"}
+              %em
+      .col-md-3
+        .text-center
+          %img{:src => "images/b2.jpg"}/
+          %img#sale1{:src => "images/sale.jpg"}/
+          %h3.h3 Feel Tank
+          %p#big
+            %strong $59.95
+          #clothing.button1
+            %scan.add ADD TO CARD
+            %a#iconplus{:href => "../icon/plus"}
+              %i.fa.fa-plus{"aria-hidden" => "true"}
+              %em
+      .col-md-3
+        .text-center
+          %img{:src => "images/b3.jpg"}/
+          %h3.h3 Feel Tank
+          %p#big
+            %strong $59.95
+          #clothing.button1
+            %scan.add ADD TO CARD
+            %a#iconplus{:href => "../icon/plus"}
+              %i.fa.fa-plus{"aria-hidden" => "true"}
+              %em
+      .col-md-3
+        .text-center
+          %img{:src => "images/b4.jpg"}/
+          %img#sale1{:src => "images/sale.jpg"}/
+          %h3.h3 Feel Tank
+          %p#big
+            %strong $59.95
+          #clothing.button1
+            %scan.add ADD TO CARD
+            %a#iconplus{:href => "../icon/plus"}
+              %i.fa.fa-plus{"aria-hidden" => "true"}
+              %em
+    #center.container
+      we accept
+      %img{:src => "images/accept.png"}/
+    %footer.panel-footer
+      .container
+        .row
+          .hidden-xs
+            .col-md-8.col-sm-8
+              %section#hours.col-md-3.col-sm-6
+                %br/
+                %b#zoom Custom Service
+                %br/
+                contact
+                %br/
+                FAQ
+                %br/
+                Terms of payment
+                %br/
+                Terms of sale
+                %br/
+                Delivery tems and condition
+                %br/
+                Seturn and Refunds
+              %section#address.col-md-3.col-sm-6
+                %br/
+                %b#zoom Information
+                %br/
+                %br/
+                Affiliate
+                %br/
+                Cookies
+                %br/
+                How to Shop
+                %br/
+                About Nelly
+                %br>/
+                s
+                Investor ralations
+                %br/
+              %section#testimonials.col-md-3.col-sm-6
+                %br/
+                %b#zoom campaigns
+                %br/
+                %br/
+                Evening dresses
+                %br/
+                Mekeup
+                %br/
+                Fashion forward
+                %br/
+                training clothers
+                %br/
+                Special Occasion Dresses
+                %br/
+              %section#testimonials.col-md-3.col-sm-6
+                %br/
+                %b#zoom Stores
+                %br/
+                %br/
+                Paris
+                %br/
+                New York
+                %br/
+                London
+                %br/
+                Madrid
+                %br/
+                Tokio
+                %br/
+            .col-md-4.col-sm-4
+              %section#testimonials.col-md-6.col-sm-8
+                %br/
+                %b#zoom Sosial
+                %br/
+                %br/
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %br/
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %i#styleicon.fa 
+                %hr.visible-xs/
+              %section#testimonials.col-md-6.col-sm-4{:style => "float:right"}
+                %br/
+                %br/
+                %img{:src => "images/secured.png"}/
+                %hr.visible-xs/
+    %footer#end
+      %button#iconmenu.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar-footer", "data-toggle" => "collapse", :type => "button"}
+        %span.btn.glyphicon.glyphicon-menu-hamburger.visible-xs
+      #navbar-footer.nav.navbar-nav.navbar-left.navbar-collapse.collapse
+        %ul#nav-list.nav.navbar-nav.navbar-left
+          %li
+            %a{:href => "login.html"} Privacy &amp; Cookies
+          %li
+            %a{:href => "checkout.html"} Terms &amp; Conditions
+          %li
+            %a{:href => "checkout.html"} Accessibility
+          %li
+            %a{:href => "login.html"} Store Directory
+          %li
+            %a{:href => "register.html"} About Us
+      #right.com
+        %b
+          © LookShop.com
+          %br/
+          All Rights Reserved
+    / jQuery (Bootstrap JS plugins depend on it)
+    %script{:src => "js/jquery-2.1.4.min.js"}
+    %script{:src => "js/bootstrap.min.js"}
+    %script{:src => "js/ajax-utils.js"}
+    %script{:src => "js/script.js"}
+    :javascript
+      $(function() {
+      
+          var menu_ul = $('.menu > li > ul'),
+                 menu_a  = $('.menu > li > a');
+          
+          menu_ul.hide();
+      
+          menu_a.click(function(e) {
+              e.preventDefault();
+              if(!$(this).hasClass('active')) {
+                  menu_a.removeClass('active');
+                  menu_ul.filter(':visible').slideUp('normal');
+                  $(this).addClass('active').next().stop(true,true).slideDown('normal');
+              } else {
+                  $(this).removeClass('active');
+                  $(this).next().stop(true,true).slideUp('normal');
+              }
+          });
+      
+      });
